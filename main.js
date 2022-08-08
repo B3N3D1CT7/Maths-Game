@@ -80,7 +80,6 @@ function startMaths() {
   } else {
     para.textContent = `${firstNum} - ${secondNum}`;
   }
-  console.log(mainResult);
 }
 
 function game() {
