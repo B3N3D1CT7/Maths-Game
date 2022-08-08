@@ -185,7 +185,7 @@ body {
   background: var(--body-bg);
   color: #fff;
   transition: .3s ease;
-  font-size: .85rem;
+  font-size: .65rem;
   font-weight: 500;
   border: none;
 }
