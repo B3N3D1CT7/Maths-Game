@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Made by Benedict -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Benedict Umeozor">
+  <title>My Template</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/fffd17f093.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  
+  <header>
+    <div class="wrapper">
+      <h1>Ben<span>Coding...</span></h1>
+    </div>
+  </header>
+ 
+ <div class="intro-container">
+   <h1>Brain Teaser</h1>
+   <p>Test your Brain!!</p>
+   <p>How fast can you solve simple arithmetics?</p>
+   <i class="fa-solid fa-angle-down angle"></i>
+   
+   <div class="form" id="intro-form">
+     <label for="name">Enter your name</label>
+     <input type="text" id="name" value="Player">
+     <button class="btn-start">Start <i class="fa-solid fa-fast-forward"></i></button>
+   </div>
+ </div>
+ 
+ <div class="game-container">
+     <p id="player-name"></p>
+   <div class="maths">
+     <p id="maths"></p>
+   </div>
+   <div class="comment">
+     <p id="comment"></p>
+   </div>
+   <div class="time">
+     <p class="main-time"></p>
+   </div>
+   <div class="input-box">
+     <p class="user-answer">Your answer:</p>
+     <input type="number" id="answer">
+     <div class="buttons">
+       <button id="submit">Submit</button>
+       <button id="new-game">New Game</button>
+     </div>
+   </div>
+   <div class="score">
+     <p class="high-score">High Score: <span></span></p>
+     <p class="main-score">Score: <span></span></p>
+   </div>
+ </div>
+ 
+ <div class="preloader">
+   <div class="main">
+     <div class="load-circle">
+     
+     </div>
+     <div class="loader">
+       <p>Loading...</p>
+       <div class="loader-box">
+         <div class="load"></div>
+         <p class="percent"><span>0</span>%</p>
+       </div>
+     </div>
+   </div>
+ </div>
+ 
+ <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
