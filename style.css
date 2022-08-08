@@ -8,7 +8,7 @@
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
   line-height: 1.2;
-  font-size: 1rem;
+  font-size: .85rem;
 }
 
 :root {
@@ -139,8 +139,9 @@ body {
   text-align: center;
 }
 .game-container .maths p {
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   font-weight: 550;
+  margin: 2% 0;
 }
 .game-container .comment p {
   text-align: center;
